@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>My page with PHP code</title>
+</head>
+<body>
+    <h1>Welcome to my page!</h1>
+    <p>Here is some dynamic content:</p>
+    
+    <?php
+    $secret = 1000;
+
+    $min = pow(10, 4);
+    $max = pow(10, 7);
+    $random = rand($min, $max);
+
+    if ($random % $secret == 0) {
+        echo "Random value is " . $random;
+        ?>
+    
+</body>
+</html>
