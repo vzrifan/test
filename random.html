@@ -1,19 +1,12 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>My page with PHP code</title>
+  <title>My PHP page</title>
 </head>
 <body>
- 
-    <?php
-    $secret = 1000;
-
-    $min = pow(10, 4);
-    $max = pow(10, 7);
-    $random = rand($min, $max);
-
-    if ($random % $secret == 0) {
-        echo "Random value is " . $random;
-        ?>
-    
+  <h1>Welcome to my PHP page</h1>
+  <?php
+    echo "Hello, world!";
+  ?>
 </body>
 </html>
