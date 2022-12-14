@@ -1,14 +1,16 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    
+    echo("Hello World");
 
-// Get the secret value from the input data
-$secret = 1000;
-
-// Generate a random number between 5 and 8 digits long
-$min = pow(10, 4);
-$max = pow(10, 7);
-$random = rand($min, $max);
-
-// Check if the random number is divisible by the secret value
-if ($random % $secret == 0) {
-    // Output the random number on the page
-    echo "Random value is " . $random;
+    ?>
+</body>
+</html>
